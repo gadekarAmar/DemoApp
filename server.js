@@ -15,15 +15,15 @@ var onData=function(req, res){
 }
 
 var onDefault=function(req, res){
-    res.send("<h1>Transflower Learning Pvt. Ltd</h1>"+
+    res.send("<h1>KHALBAL GROUP MANGALWEDHA</h1>"+
               "<hr/>"+
-              "<h2>PGDAC IACSD </h2>"+
+              "<h2>TEAM MEMBERS </h2>"+
               "<ol>"+
-                    " <li>Mentoring for skill building</li>"+
-                    " <li>Workshops</li>"+
-                    " <li>Online Course</li>"+
-                    " <li>Corporate Training</li>"+
-             "</ol>");
+                    " <li>PAVAN GAIKAVAD:CHEIF DIRECTor</li>"+
+                    " <li>VIJAY MANE:BUISNESS EXECUTIVE</li>"+
+                    " <li>SAMADHAN KOSHTI:OWNER OF RELEANCE INDUUSTRIES</li>"+
+                    " <li>AMOL GOVE:CIVIL ENGINEER</li>"+
+             "</ol>"+<a href="https://www.instagram.com/khalbal_tar_honarach/?hl=en">To visit our ibsta page click here</a>);
 };
 app.get("/",onDefault);  // Request handler functions are registered
 app.get("/api/products", OnData);
